@@ -15,7 +15,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #111111;
+  background: linear-gradient(0deg, #080808 0%, #0e0e0e 100%);
 }
 .header-section .header-section-title {
   display: flex;
@@ -39,6 +39,11 @@
 .header-section .header-section-title .header-section-navigation .header-section-navigation-link {
   margin: 0px 20px;
   cursor: pointer;
+  color: #bebebe;
+  transition: 0.2s ease-in-out;
+}
+.header-section .header-section-title .header-section-navigation .header-section-navigation-link:hover {
+  color: white;
 }
 .header-section .header-section-title .header-section-navigation h5 {
   font-weight: 600;
