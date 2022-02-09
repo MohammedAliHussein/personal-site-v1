@@ -1,3 +1,3 @@
 export function Main() {
-    console.log(`loade`);
+    console.log('asd')
 }

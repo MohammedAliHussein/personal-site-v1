@@ -10,6 +10,10 @@
         @include position-center;
         flex-direction: column;
 
+        .stagger {
+            opacity: 0;
+        }
+
         .header-section-title-h3 {
             font-weight: 500;
             margin-bottom: 10px;
@@ -22,11 +26,11 @@
             .header-section-navigation-link {
                 margin: 0px 20px;
                 cursor: pointer;
-                letter-spacing: 1px;
+                // letter-spacing: 1px;
             }
 
             h5 {
-                font-weight: 300;
+                font-weight: 600;
             }
         }
     }

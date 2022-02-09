@@ -1,5 +1,4 @@
-import { Main } from "./Main"
+import { InitialAnimation } from "./HeaderAnimation";
 
-window.onload(() => {
-    Main();
-});
+
+InitialAnimation();
