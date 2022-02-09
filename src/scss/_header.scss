@@ -4,7 +4,6 @@
     width: 100%;
     height: 100vh;
     @include position-center;
-    background: linear-gradient(0deg, rgb(8, 8, 8) 0%, rgb(14, 14, 14) 100%); 
 
     .header-section-title {
         @include position-center;

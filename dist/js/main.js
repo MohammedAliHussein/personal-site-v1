@@ -1320,4 +1320,7 @@ function InitialAnimation() {
     animation.play();
 }
 
-InitialAnimation();
+window.onload = function () {
+    InitialAnimation();
+    SetupScrollListener();
+};

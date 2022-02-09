@@ -1,4 +1,6 @@
 import { InitialAnimation } from "./HeaderAnimation";
 
-
-InitialAnimation();
+window.onload = function () {
+    InitialAnimation();
+    SetupScrollListener();
+}

@@ -2,6 +2,21 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  background-color: #0c0c0c;
+}
+
+::-webkit-scrollbar {
+  width: 2px;
+  border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #3b3b3b;
+  transition: 0.2s ease-in-out;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #494949;
 }
 
 * {
@@ -15,7 +30,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(0deg, #080808 0%, #0e0e0e 100%);
 }
 .header-section .header-section-title {
   display: flex;
