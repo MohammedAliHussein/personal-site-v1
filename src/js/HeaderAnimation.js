@@ -1,8 +1,8 @@
 import anime from "../../node_modules/animejs/lib/anime.es";
 
-export function InitialAnimation() {
+export function InitialAnimation(element_name) {
     let animation = anime({
-        targets: "._stagger",
+        targets: element_name,
         translateY: [-25, 0],
         opacity: [0, 1],
         easing: "easeOutExpo",

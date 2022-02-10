@@ -1307,9 +1307,9 @@ anime.easing = parseEasings;
 anime.penner = penner;
 anime.random = function (min, max) { return Math.floor(Math.random() * (max - min + 1)) + min; };
 
-function InitialAnimation() {
+function InitialAnimation(element_name) {
     let animation = anime({
-        targets: "._stagger",
+        targets: element_name,
         translateY: [-25, 0],
         opacity: [0, 1],
         easing: "easeOutExpo",
@@ -1321,6 +1321,6 @@ function InitialAnimation() {
 }
 
 window.onload = function () {
-    InitialAnimation();
-    SetupScrollListener();
+    InitialAnimation("._stagger");
+    InitialAnimation("._edcation-stagger");
 };

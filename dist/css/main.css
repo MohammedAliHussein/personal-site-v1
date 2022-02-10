@@ -24,6 +24,18 @@
   color: #dddddd;
 }
 
+h3 {
+  font-weight: 400;
+}
+
+h4 {
+  font-weight: 500;
+}
+
+h5 {
+  font-weight: 600;
+}
+
 .header-section {
   width: 100%;
   height: 100vh;
@@ -41,7 +53,6 @@
   opacity: 0;
 }
 .header-section .header-section-title .header-section-title-h3 {
-  font-weight: 500;
   margin-bottom: 10px;
   margin-top: 5px;
 }
@@ -59,8 +70,29 @@
 .header-section .header-section-title .header-section-navigation .header-section-navigation-link:hover {
   color: white;
 }
-.header-section .header-section-title .header-section-navigation h5 {
-  font-weight: 600;
+
+.education-section {
+  width: 100%;
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.education-section .education-setcion-information {
+  margin: 10px;
+}
+.education-section .education-setcion-information h3, .education-section .education-setcion-information h4 {
+  margin-bottom: 15px;
+}
+.education-section .education-setcion-information h5 {
+  cursor: pointer;
+  transition: 0.2s;
+  color: #bebebe;
+}
+.education-section .education-setcion-information h5:hover {
+  color: white;
 }
 
 /*# sourceMappingURL=main.css.map */
