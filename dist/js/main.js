@@ -1320,7 +1320,18 @@ function InitialAnimation(element_name) {
     animation.play();
 }
 
+let first_scroll = false;
+
+function SetupScrollListener() {
+    window.addEventListener('scroll', () => {
+        if (first_scroll === false && window.scrollY > 200) {
+            InitialAnimation("._edcation-stagger");
+            first_scroll = true;
+        }
+    });
+}
+
 window.onload = function () {
     InitialAnimation("._stagger");
-    InitialAnimation("._edcation-stagger");
+    SetupScrollListener();
 };

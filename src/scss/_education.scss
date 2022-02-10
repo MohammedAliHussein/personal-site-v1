@@ -6,18 +6,24 @@
     align-items: center;
     flex-direction: column;
     text-align: center;
-
+        h1 {
+            opacity: 0;
+        }
     .education-setcion-information {
         margin: 10px;
 
+
+
         h3, h4 {
             margin-bottom: 15px;
+            opacity: 0;
         }
 
         h5 {
             cursor: pointer;
             transition: 0.2s;
             color: rgb(190, 190, 190);
+            opacity: 0;
 
             &:hover {
                 color: white;
