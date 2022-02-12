@@ -1,7 +1,9 @@
 import { InitialAnimation } from "./HeaderAnimation";
-import { SetupScrollListener } from "./ScrollEvents";
+import { SetupScrollListener, SetupClickListener } from "./Events";
 
 window.onload = function () {
+    window.scroll(0, 0);
     InitialAnimation("._stagger");
     SetupScrollListener();
+    SetupClickListener();
 }

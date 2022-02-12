@@ -1,4 +1,3 @@
 #!/usr/bin/bash
 
-sass ./src/scss/main.scss ./dist/css/main.css
-rollup -c
+./scripts/html.sh && ./scripts/css.sh && ./scripts/js.sh

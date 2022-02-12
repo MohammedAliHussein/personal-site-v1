@@ -10,42 +10,44 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="../dist/css/main.css">
+    <link rel="stylesheet" href="./css/main.css">
     <title>Portfolio</title>
 </head>
 
 <body>
-    <div class="header-section">
-        <div class="header-section-title">
-            <h1 class="_stagger">Hi, I'm [Mo]</h1>
-            <h3 class="header-section-title-h3 _stagger">Aspiring software developer</h3>
-            <div class="header-section-navigation _stagger">
-                <h5 class="header-section-navigation-link">Education</h5>
-                <h3>|</h3>
-                <h5 class="header-section-navigation-link">Projects</h5>
-                <h3>|</h3>
-                <h5 class="header-section-navigation-link">Contact</h5>
+    <div class="main-container">
+        <div class="header-section">
+            <div class="header-section-title">
+                <h1 class="_stagger">Hi, I'm [Mo]</h1>
+                <h3 class="header-section-title-h3 _stagger">Aspiring software developer</h3>
+                <div class="header-section-navigation _stagger">
+                    <h5 class="header-section-navigation-link education-link">Education</h5>
+                    <h3 class="divider">|</h3>
+                    <h5 class="header-section-navigation-link projects-link">Projects</h5>
+                    <h3 class="divider">|</h3>
+                    <h5 class="header-section-navigation-link contact-link">Contact</h5>
+                </div>
+            </div>
+        </div>
+        <div class="education-section">
+            <h1 class="_edcation-stagger">[Education]</h1>
+            <div class="education-setcion-information">
+                <h3 class="_edcation-stagger">Curtin University - Software Engineering (B Comp)</h3>
+                <!-- <h4 class="_edcation-stagger">Course weighted average: 82%</h4> -->
+                <h5 class="_edcation-stagger" href="#">Academic Transcript</h5>
+                <!--open a modal on the screen for the transcript-->
+            </div>
+        </div>
+        <div class="projects-section">
+            <h1 class="_projects-stagger projects-title">[Projects]</h1>
+            <div class="projects-section-list">
+                <div class="_projects-stagger project-list-item">404</div>
+                <div class="_projects-stagger project-list-item">404</div>
+                <div class="_projects-stagger project-list-item">404</div>
             </div>
         </div>
     </div>
-    <div class="education-section">
-        <h1 class="_edcation-stagger">Education</h1>
-        <div class="education-setcion-information">
-            <h3 class="_edcation-stagger">Curtin University - Software Engineering (B Comp)</h3>
-            <h4 class="_edcation-stagger">Course weighted average: 82%</h4>
-            <h5 class="_edcation-stagger" href="#">Academic Transcript</h5>
-            <!--open a modal on the screen for the transcript-->
-        </div>
-    </div>
-    <div class="projects-section">
-        <h1 class="_projects-stagger">Projects</h1>
-        <div class="projects-section-list">
-            <div class="_projects-stagger project-list-item">404</div>
-            <div class="_projects-stagger project-list-item">404</div>
-            <div class="_projects-stagger project-list-item">404</div>
-        </div>
-    </div>
 </body>
-<script type="module" src="../dist/js/main.js"></script>
+<script type="module" src="./js/bundle.js"></script>
 
 </html>
