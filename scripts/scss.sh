@@ -1,3 +1,3 @@
-#!/usr/bin/bash
+#!/bin/bash
 
-sass --watch ./src/scss/main.scss ./dist/css/main.css
+npx sass --watch ./src/scss/main.scss ./dist/css/main.css

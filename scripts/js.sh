@@ -1,7 +1,7 @@
-#!/usr/bin/bash
+#!/bin/bash
 
-rollup -c
+npx rollup -c
 
 mkdir dist/js
 
-uglifyjs --compress --mangle -o ./dist/js/bundle.js ./src/bundle/bundle.js
+npx uglifyjs --compress --mangle -o ./dist/js/bundle.js ./src/bundle/bundle.js
