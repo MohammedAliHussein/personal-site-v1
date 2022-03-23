@@ -1320,11 +1320,27 @@ function InitialAnimation(element_name) {
     animation.play();
 }
 
+function InitialAnimationTwo(element_name) {
+    let animation = anime({
+        targets: element_name,
+        translateY: [-15, 0],
+        opacity: [0, 1],
+        easing: "easeOutExpo",
+        duration: 500,
+        delay: anime.stagger(300)
+    });
+
+    animation.play();
+}
+
 let education_scroll = false;
 let projects_scroll = false;
+let technology_scroll = false;
 
 function SetupScrollListener() {
     window.addEventListener('scroll', () => {
+        console.log(window.scrollY);
+
         if (education_scroll === false && window.scrollY > 200) {
             InitialAnimation("._edcation-stagger");
             education_scroll = true;
@@ -1333,6 +1349,11 @@ function SetupScrollListener() {
         if (projects_scroll === false && window.scrollY > 880) {
             InitialAnimation("._projects-stagger");
             projects_scroll = true;
+        }
+
+        if(technology_scroll === false && window.scrollY > 1675) {
+            InitialAnimationTwo("._technology-stagger");
+            technology_scroll = true;
         }
     });
 }

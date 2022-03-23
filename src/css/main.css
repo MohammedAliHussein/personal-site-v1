@@ -202,19 +202,23 @@ h5 {
 }
 .technology-section h1 {
   margin-bottom: 30px;
+  opacity: 0;
 }
 .technology-section h3 {
   margin-top: 25px;
   margin-bottom: 5px;
+  opacity: 0;
 }
 .technology-section ul {
   list-style: none;
   display: flex;
+  opacity: 0;
 }
 .technology-section ul li {
   margin: 10px;
   font-weight: 300;
   font-size: 13px;
+  color: white;
 }
 .technology-section .front-end-title {
   margin-top: 20px;

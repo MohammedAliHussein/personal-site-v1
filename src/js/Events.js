@@ -1,10 +1,13 @@
-import { InitialAnimation } from "./HeaderAnimation";
+import { InitialAnimation, InitialAnimationTwo } from "./HeaderAnimation";
 
 let education_scroll = false;
 let projects_scroll = false;
+let technology_scroll = false;
 
 export function SetupScrollListener() {
     window.addEventListener('scroll', () => {
+        console.log(window.scrollY);
+
         if (education_scroll === false && window.scrollY > 200) {
             InitialAnimation("._edcation-stagger");
             education_scroll = true;
@@ -13,6 +16,11 @@ export function SetupScrollListener() {
         if (projects_scroll === false && window.scrollY > 880) {
             InitialAnimation("._projects-stagger");
             projects_scroll = true;
+        }
+
+        if(technology_scroll === false && window.scrollY > 1675) {
+            InitialAnimationTwo("._technology-stagger");
+            technology_scroll = true;
         }
     });
 }
