@@ -1339,8 +1339,6 @@ let technology_scroll = false;
 
 function SetupScrollListener() {
     window.addEventListener('scroll', () => {
-        console.log(window.scrollY);
-
         if (education_scroll === false && window.scrollY > 200) {
             InitialAnimation("._edcation-stagger");
             education_scroll = true;
