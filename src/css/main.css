@@ -9,6 +9,11 @@ html {
   scroll-behavior: smooth;
 }
 
+a {
+  text-decoration: inherit;
+  color: inherit;
+}
+
 .main-container {
   display: flex;
   flex-direction: column;
@@ -101,12 +106,8 @@ h5 {
   opacity: 0;
 }
 .education-section .education-setcion-information h5 {
-  cursor: pointer;
   color: #bebebe;
   opacity: 0;
-}
-.education-section .education-setcion-information h5:hover {
-  color: white;
 }
 
 .projects-section {
@@ -188,6 +189,9 @@ h5 {
 }
 .projects-section .projects-section-list .project-list-item .project-description h3 {
   padding-bottom: 10px;
+}
+.projects-section .projects-section-list .graph-simulation {
+  cursor: auto;
 }
 
 .technology-section {

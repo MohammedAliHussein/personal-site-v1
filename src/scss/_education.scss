@@ -20,13 +20,8 @@
         }
 
         h5 {
-            cursor: pointer;
             color: rgb(190, 190, 190);
             opacity: 0;
-
-            &:hover {
-                color: white;
-            }
         }
     }
 }

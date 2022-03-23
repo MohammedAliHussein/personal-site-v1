@@ -9,6 +9,11 @@ html {
   scroll-behavior: smooth;
 }
 
+a {
+  text-decoration: inherit;
+  color: inherit;
+}
+
 .main-container {
     display: flex;
     flex-direction: column;
