@@ -1367,8 +1367,8 @@ function SetupClickListener() {
         window.scrollTo(0, 1263);
     });
 
-    document.querySelector('.contact-link').addEventListener("click", () => {
-
+    document.querySelector('.technology-link').addEventListener("click", () => {
+        window.scrollTo(0, 1911);
     });
 }
 

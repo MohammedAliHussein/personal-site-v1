@@ -6,8 +6,6 @@ let technology_scroll = false;
 
 export function SetupScrollListener() {
     window.addEventListener('scroll', () => {
-        console.log(window.scrollY);
-
         if (education_scroll === false && window.scrollY > 200) {
             InitialAnimation("._edcation-stagger");
             education_scroll = true;
@@ -34,8 +32,8 @@ export function SetupClickListener() {
         window.scrollTo(0, 1263);
     });
 
-    document.querySelector('.contact-link').addEventListener("click", () => {
-
+    document.querySelector('.technology-link').addEventListener("click", () => {
+        window.scrollTo(0, 1911);
     });
 }
 
