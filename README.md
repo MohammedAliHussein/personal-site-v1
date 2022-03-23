@@ -1,4 +1,4 @@
-# **personal-site-v1**
+# **Personal Site V1**
 
 ![alt text](./assets/README_IMAGE.png)
 

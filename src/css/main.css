@@ -190,4 +190,34 @@ h5 {
   padding-bottom: 10px;
 }
 
+.technology-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+  margin-top: 5vh;
+}
+.technology-section h1 {
+  margin-bottom: 30px;
+}
+.technology-section h3 {
+  margin-top: 25px;
+  margin-bottom: 5px;
+}
+.technology-section ul {
+  list-style: none;
+  display: flex;
+}
+.technology-section ul li {
+  margin: 10px;
+  font-weight: 300;
+  font-size: 13px;
+}
+.technology-section .front-end-title {
+  margin-top: 20px;
+}
+
 /*# sourceMappingURL=main.css.map */

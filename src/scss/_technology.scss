@@ -1,0 +1,34 @@
+@import "mixins";
+
+.technology-section {
+    @include position-center;
+    flex-direction: column;    
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    margin-top: 5vh;
+
+    h1 {
+        margin-bottom: 30px;
+    }
+
+    h3 {
+        margin-top: 25px;
+        margin-bottom: 5px;
+    }
+
+    ul {
+        list-style: none;
+        display: flex;
+        li {
+            margin: 10px;
+            font-weight: 300;
+            font-size: 13px;
+        }
+    }
+
+    .front-end-title {
+        margin-top: 20px;
+    }
+
+}

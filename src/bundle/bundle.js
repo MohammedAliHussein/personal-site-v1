@@ -1351,9 +1351,19 @@ function SetupClickListener() {
     });
 }
 
+function hoverListener() {
+    document.querySelector("#personal-site-project-list-item").addEventListener("hover", () => {
+        document.querySelector("#personal-site-going-to-github").style.opacity = 1;
+    });
+    document.querySelector("#maze-game-project-list-item").addEventListener("hover", () => {
+        document.querySelector("#maze-game-going-to-github").style.opacity = 1;
+    });
+}
+
 window.onload = function () {
     window.scroll(0, 0);
     InitialAnimation("._stagger");
     SetupScrollListener();
     SetupClickListener();
+    hoverListener();    
 };

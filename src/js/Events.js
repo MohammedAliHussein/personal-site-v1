@@ -30,3 +30,12 @@ export function SetupClickListener() {
 
     });
 }
+
+export function hoverListener() {
+    document.querySelector("#personal-site-project-list-item").addEventListener("hover", () => {
+        document.querySelector("#personal-site-going-to-github").style.opacity = 1;
+    });
+    document.querySelector("#maze-game-project-list-item").addEventListener("hover", () => {
+        document.querySelector("#maze-game-going-to-github").style.opacity = 1;
+    });
+}
